@@ -1,0 +1,86 @@
+#lintes personalizable, puede agregar o eliminar reglas, según sus necesidades.
+#Para hacerlo, debe crear un archivo analysis_options.yaml a la altura de su carpeta raiz. 
+
+linter:
+  rules:
+    # ---------------------------------------------------------------------------- #
+    #                                     STYLE                                    #
+    # ---------------------------------------------------------------------------- #
+    # ------ Disable individual rules ----- #
+    #                 ---                   #
+    # Turn off what you don't like.         #
+    # ------------------------------------- #
+
+    # Use parameter order as in json response
+    always_put_required_named_parameters_first: false
+    
+    # Util classes are awesome!
+    avoid_classes_with_only_static_members: false
+    
+    # Prefiere const con constructores constantes
+    prefer_const_constructors: true
+
+    # Organiza el codigo en formato cascada para evitar
+    # redundancia
+    cascade_invocations: true
+
+    # Good packages document everything
+    public_member_api_docs: true
+    
+    # Blindly follow the Flutter code style, which prefers types everywhere
+    always_specify_types: true
+  
+    # Back to the 80s
+    lines_longer_than_80_chars: false
+
+    # Evite las funciones asíncronas que devuelven vacío.
+    avoid_void_async: true
+
+    # ---------------------------------------------------------------------------- #
+    #                                 ERRORS RULES                                 #
+    # ---------------------------------------------------------------------------- #
+    
+    # Evite las llamadas al print en el código de producción.
+    avoid_print: true
+    
+    # Evite las importaciones relativas de archivos en formato lib/.
+    avoid_relative_lib_imports: true
+
+    # Evita devolver Futures nulos.
+    avoid_returning_null_for_future: true
+
+    # Evitar .toString () en el código de producción ya que los resultados pueden minimizarse.
+    avoid_type_to_string: true
+
+    # Evite tipos como nombres de parámetros.
+    avoid_types_as_parameter_names: true
+
+    # Evite el uso de bibliotecas solo web fuera de los paquetes de complementos web de Flutter.
+    avoid_web_libraries_in_flutter: true
+    
+    # Only reference in scope identifiers in doc comments.
+    comment_references: true
+
+    # Evita meter bucles en los bloques finally
+    control_flow_in_finally: true
+
+    # Evite declaraciones vacias
+    empty_statements: true
+
+    # No usar mas de un caso con el mismo valor en switch case
+    no_duplicate_case_values: true
+
+    # No use el tipo Null, a menos que esté seguro de que no quiere void.
+    test_types_in_equals: true
+
+    # Evita usar un throw en un finally
+    throw_in_finally: true
+
+    # Evite el uso de declaraciones innecesarias.
+    unnecessary_statements: true
+
+    # Utilice una sintaxis de expresión regular válida.
+    valid_regexps: true
+
+    # Evite las API HTML inseguras.
+    unsafe_html: true
