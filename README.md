@@ -1,16 +1,7 @@
-# coffee_concept_app
+<center><h1><b>Coffe Concept App</b></h1></center>
 
-A new Flutter project.
+Esta aplicacion fue realizada en **LiveCoding** a traves del canal de **Discord** [locos por flutter y dart](https://discord.gg/KkY42c7AGV), la realización de esta app fue motivo de la creación del challenge propuesto por [Diegoveloper](https://www.youtube.com/watch?v=bYqeGigTsBw&ab_channel=diegoveloper) en su canal de **Youtube**, la diferencia entre el reto propuesto por el youtuber y mi resultado es que decidí utilizar [Getx](https://pub.dev/packages/get), ademas decidí realizar algunas cosas diferente a la forma que el youtuber propuso, el código esta muy bien documentado para que puedas entender que hace cada parte de la aplicación, espero te pueda ser de utilidad.
 
-## Getting Started
+<img src='./assets/final_result/coffe_concept.png' width='750' ></img>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Aqui esta el link del diseño original: [Diseño Original](https://dribbble.com/shots/14166097-Coffee-App)
